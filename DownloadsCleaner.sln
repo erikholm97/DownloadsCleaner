@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadsCleaner", "DownloadsCleaner\DownloadsCleaner.csproj", "{D35DC666-2883-45AA-96C8-06780DAD13FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadsCleaner.Processor", "DownloadsCleaner.Processor\DownloadsCleaner.Processor.csproj", "{A73835F4-1230-470D-BD91-7F4D19E3E8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadsCleaner.Processor.Tests", "DownloadsCleaner.Processor.Tests\DownloadsCleaner.Processor.Tests.csproj", "{0E04B2C9-C728-4073-AEFA-1C774DC885EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D35DC666-2883-45AA-96C8-06780DAD13FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D35DC666-2883-45AA-96C8-06780DAD13FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D35DC666-2883-45AA-96C8-06780DAD13FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73835F4-1230-470D-BD91-7F4D19E3E8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73835F4-1230-470D-BD91-7F4D19E3E8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73835F4-1230-470D-BD91-7F4D19E3E8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73835F4-1230-470D-BD91-7F4D19E3E8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E04B2C9-C728-4073-AEFA-1C774DC885EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E04B2C9-C728-4073-AEFA-1C774DC885EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E04B2C9-C728-4073-AEFA-1C774DC885EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E04B2C9-C728-4073-AEFA-1C774DC885EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
