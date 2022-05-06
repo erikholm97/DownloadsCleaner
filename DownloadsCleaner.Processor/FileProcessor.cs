@@ -18,7 +18,6 @@ namespace DownloadsCleaner.Processor
         {
             _filePathValidator.BeginValidationOfPath(pathToProcess);
 
-
             this.pathToProcess = pathToProcess;
         }
 
