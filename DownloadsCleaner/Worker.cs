@@ -38,7 +38,7 @@ namespace DownloadsCleaner
         {
             try
             {
-                _fileProcessor.InitializeFileProcessor(@"C:\Test");
+                _fileProcessor.InitializeFileProcessor(ConfigurationManager.AppSettings["LocalDiscPathToKeepEmptyFromFiles"]);
                 _fileProcessor.InitProcessForRemovalOfFiles();
             }
             catch(Exception ex)
